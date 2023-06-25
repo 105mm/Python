@@ -1,0 +1,10 @@
+llit = 순서가 존재, indexing 존재, 변경가능
+
+tuple = 순서가 존재, 변경불가
+
+dict = 키와 값으로 구성, 중복 불가, 순서 없음
+
+set = 키값으로만 존재, 중복 불가, 순서 없음
+
+
+https://cording-artist.tistory.com/124
