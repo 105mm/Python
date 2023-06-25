@@ -25,8 +25,8 @@ print(sample(lst,1)) #리스트에서 1개를 무작위로 뽑는다 '''
 from random import *
 
 리스트 = []
-for i in range(1, 21):
-    리스트.append(i)
+for i in range(1, 21): #선생님코드 : 리스트=range(1,21)
+    리스트.append(i)    #            리스트=list(리스트) 
 
 shuffle(리스트)
 print(리스트)
@@ -40,3 +40,11 @@ print(커피당첨자)
 
 print("-- 당첨자 발표 --\n치킨 당첨자 : "+str(치킨당첨자번호)
 +"\n커피 당첨자 : "+str(커피당첨자)+"\n-- 축하합니다 --")
+
+# #선생님 코드
+# shuffle(리스트)
+# 뽑힌사람=sample(리스트, 4)
+# print("-- 당첨자 발표 --")
+# print("치킨 당첨자 : {0}".format(뽑힌사람[0])) #선생님은 그냥 맨 먼저 뽑힌사람 치킨줬음
+# print("커피 당첨자 : {0}".format(뽑힌사람[1:]))
+# print("-- 축하합니다 --")
